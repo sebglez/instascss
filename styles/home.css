@@ -1,0 +1,146 @@
+body {
+  background-color: #f7f5f5;
+  height: auto;
+  width: auto;
+}
+
+p {
+  margin: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  border-bottom: 2px solid #dbdbdb;
+  height: 6rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+  background-color: #fafafa;
+  padding-top: 1%;
+}
+nav .insta-img {
+  display: flex;
+  margin-left: -1%;
+}
+nav .search {
+  display: inline-flex;
+  position: relative;
+  margin-left: 230%;
+  height: 2rem;
+  border: 2px solid #dbdbdb;
+  border-radius: 3%;
+  background-color: rgba(248, 245, 245, 0.2274509804);
+  text-align: center;
+  color: #dbdbdb;
+}
+nav .r-menu {
+  display: inline-flex;
+  position: relative;
+  margin-left: 45%;
+  column-gap: 10%;
+}
+nav .home {
+  color: rgba(68, 68, 68, 0.7882352941);
+  background-color: transparent;
+  border: none;
+}
+nav .add {
+  color: rgba(68, 68, 68, 0.7882352941);
+  background-color: transparent;
+  border: none;
+  margin-top: 4%;
+}
+nav .user-pic {
+  color: rgba(68, 68, 68, 0.7882352941);
+  background-color: transparent;
+  border: none;
+  border: 3px solid #dbdbdb;
+  border-radius: 100%;
+  width: 4rem;
+  height: 2rem;
+}
+
+.center {
+  display: flex;
+  margin-top: 3%;
+}
+.center .top-nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: left;
+  margin-left: 24.95%;
+  width: 928px;
+  height: 1.5rem;
+  border: 2px solid #dbdbdb;
+  border-bottom: none;
+}
+.center .top-nav .user-pic {
+  display: flex;
+  border: 2px solid #dbdbdb;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1.2rem;
+  margin-left: 2%;
+}
+.center .top-nav .user {
+  display: inline-flex;
+  color: black;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-pic {
+  display: flex;
+  margin-left: 25%;
+}
+
+.bot-con {
+  display: block;
+  background-color: #fafafa;
+  width: 927px;
+  height: 200px;
+  margin-left: 24.98%;
+  border: 2px solid #dbdbdb;
+  border-top: none;
+}
+.bot-con .reaction {
+  display: flex;
+  justify-content: left;
+  column-gap: 2%;
+  height: 55px;
+  margin-top: -1%;
+  margin-left: 2%;
+  border-bottom: none;
+  width: 900px;
+}
+.bot-con .likes {
+  display: inline-flex;
+  font-weight: bold;
+  margin-left: 1.2%;
+  margin-top: -1.5%;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.comments {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 3%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.comments i {
+  display: flex;
+  font-style: unset;
+  color: #737373;
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-left: -10%;
+}
+
+/*# sourceMappingURL=home.css.map */

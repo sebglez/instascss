@@ -1,0 +1,154 @@
+$color_principal: #ffffff;
+$color_border: #dbdbdb;
+$color_border2: #dbdbdb41;
+$color_label: #fafafa;
+$color_font: #cebdbd;
+$btn_color: #4cb5f9;
+$footer_color: #737373;
+$nav_color: #f8f5f53a;
+$icon_color: #444444c9;
+$body_color: #dbdbdb;
+body {
+  background-color: #f7f5f5;
+  height: auto;
+  width: auto;
+}
+@mixin icon {
+  color: $icon_color;
+  background-color: transparent;
+  border: none;
+}
+p {
+  margin: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+nav {
+  display: flex;
+  border-bottom: 2px solid $color_border;
+  height: 6rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+  background-color: $color_label;
+  padding-top: 1%;
+  .insta-img {
+    display: flex;
+    margin-left: -1%;
+  }
+  .search {
+    display: inline-flex;
+    position: relative;
+    margin-left: 230%;
+    height: 2rem;
+    border: 2px solid $color_border;
+    border-radius: 3%;
+    background-color: $nav_color;
+    text-align: center;
+    color: $color_border;
+  }
+  .r-menu {
+    display: inline-flex;
+    position: relative;
+    margin-left: 45%;
+    column-gap: 10%;
+  }
+  .home {
+    @include icon;
+  }
+  .add {
+    @include icon;
+    margin-top: 4%;
+  }
+  .user-pic {
+    @include icon;
+    border: 3px solid $color_border;
+    border-radius: 100%;
+    width: 4rem;
+    height: 2rem;
+  }
+}
+
+.center {
+  display: flex;
+  margin-top: 3%;
+  .top-nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+
+    margin-left: 24.95%;
+    width: 928px;
+    height: 1.5rem;
+    border: 2px solid $color_border;
+    border-bottom: none;
+    .user-pic {
+      display: flex;
+      border: 2px solid $color_border;
+      border-radius: 100%;
+      width: 2rem;
+      height: 2rem;
+      margin-bottom: 1.2rem;
+      margin-left: 2%;
+    }
+    .user {
+      display: inline-flex;
+      color: black;
+      font-weight: 600;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+      margin-left: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+.main-pic {
+  display: flex;
+  margin-left: 25%;
+}
+
+.bot-con {
+  display: block;
+  background-color: $color_label;
+  width: 927px;
+  height: 200px;
+  margin-left: 24.98%;
+  border: 2px solid $color_border;
+  border-top: none;
+  .reaction {
+    display: flex;
+    justify-content: left;
+    column-gap: 2%;
+    height: 55px;
+    margin-top: -1%;
+    margin-left: 2%;
+    border-bottom: none;
+
+    width: 900px;
+  }
+  .likes {
+    display: inline-flex;
+    font-weight: bold;
+    margin-left: 1.2%;
+    margin-top: -1.5%;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+.comments {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 3%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  i {
+    display: flex;
+    font-style: unset;
+    color: #737373;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-left: -10%;
+  }
+}
